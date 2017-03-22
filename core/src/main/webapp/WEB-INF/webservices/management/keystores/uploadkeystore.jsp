@@ -91,6 +91,7 @@ ${portal.toolkit()}
 			</c:if>
 
 <form method="post" class="form-horizontal" action="${pageContext.request.contextPath}/webservices/management/keystores/uploadkeystore/upload/${domainKeyStore.externalId}" enctype="multipart/form-data">
+	${csrf.field()}
 	<div class="panel panel-default">
 		<div class="panel-body">
 			<div class="form-group row">

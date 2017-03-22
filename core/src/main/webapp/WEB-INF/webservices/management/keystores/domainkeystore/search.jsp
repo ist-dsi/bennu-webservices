@@ -211,7 +211,7 @@ ${portal.toolkit()}
 		</table>
 		<form id="deleteselected"
 			action="${pageContext.request.contextPath}/webservices/management/keystores/domainkeystore/search/deleteSelected"
-			style="display: none;" method="POST"></form>
+			style="display: none;" method="POST">${csrf.field()}</form>
 
 		<button type="button"
 			onClick="javascript:submitOptions('searchdomainkeystoreTable', 'deleteselected', 'domainKeyStores')">

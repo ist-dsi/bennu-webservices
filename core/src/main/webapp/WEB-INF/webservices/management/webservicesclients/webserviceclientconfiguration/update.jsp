@@ -90,6 +90,7 @@ ${portal.toolkit()}
 			</c:if>
 
 <form method="post" class="form-horizontal">
+${csrf.field()}
 <div class="panel panel-default">
   <div class="panel-body">
 

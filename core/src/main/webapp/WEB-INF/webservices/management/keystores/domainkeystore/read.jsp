@@ -161,6 +161,7 @@ ${portal.toolkit()}
 	</div>
 	<div class="panel-body">
 		<form method="post" class="form-horizontal">
+			${csrf.field()}
 			<table class="table">
 				<tbody>
 					<tr>
