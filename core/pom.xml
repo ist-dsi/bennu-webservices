@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
 		<groupId>pt.ist</groupId>
 		<artifactId>bennu-webservices</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>2.0.0</version>
 		<relativePath>..</relativePath>
 	</parent>
 
@@ -71,11 +70,9 @@
 							<target>
 								<property name="basedir" refid="maven.project" />
 
-								<echo
-									message="ANTRUN: copy resources and convert to UTF-8 to webapp/WEB-INF/resources" />
+								<echo message="ANTRUN: copy resources and convert to UTF-8 to webapp/WEB-INF/resources" />
 
-								<copy todir="${basedir}/src/main/webapp/WEB-INF/resources"
-									encoding="ISO-8859-15" outputencoding="UTF-8" overwrite="true">
+								<copy todir="${basedir}/src/main/webapp/WEB-INF/resources" encoding="ISO-8859-15" outputencoding="UTF-8" overwrite="true">
 									<fileset dir="${basedir}/src/main/resources/resources/" />
 								</copy>
 							</target>
