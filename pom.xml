@@ -16,6 +16,26 @@
 
 	<name>Bennu webservices</name>
 
+	<issueManagement>
+        <system>JIRA</system>
+        <url>https://jira.fenixedu.org/browse/BWS</url>
+    </issueManagement>
+
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License v3.0</name>
+            <url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git@github.com:ist-dsi/bennu-webservices.git</connection>
+        <developerConnection>scm:git:git@github.com:ist-dsi/bennu-webservices.git</developerConnection>
+        <url>http://github.com/ist-dsi/bennu-webservices</url>
+        <tag>HEAD</tag>
+    </scm>
+
 	<properties>
 	</properties>
 
